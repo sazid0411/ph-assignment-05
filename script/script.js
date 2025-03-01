@@ -14,7 +14,7 @@ const currentTime = date.toLocaleTimeString("en-US", { hour12: true })
 
 // discover to blogs
 const discover = document.getElementById("discover-section").addEventListener("click", function () {
-    window.location.href = "../blog.html";
+    window.location.href = "./blog.html";
 });
 
 // complete Buttons 
