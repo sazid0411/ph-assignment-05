@@ -27,7 +27,7 @@
     <main class="mt-4 container mx-auto">
         <h1 class="text-3xl font-bold text-center">Blogs</h1>
 
-        <div class="flex flex-col gap-6 mt-10">
+        <div class="flex flex-col gap-6 my-10">
             <div class=" p-4 text-lg flex flex-col gap-4 bg-gray-300 rounded-xl ">
 
                 <h1 class="font-bold ">Question-1: What are the different ways to select an element in the DOM?</h1>
@@ -35,20 +35,25 @@
 
                 <h1 class="">There are many ways to select an elements in the DOM. Here the some of the popular and best
                     way of select an elements in the DOM:</h1>
-                <ol class="list">
-                    <li>Select by TagName : getElementByTagName() , this method is used to select a DOM element by
+                <ul class="list-decimal pl-5">
+                    <li>Select by TagName : <span class="font-bold">getElementByTagName()</span> , this method is used
+                        to select a DOM element by
                         tag
                         name of an element.</li>
-                    <li>Select by ID : getElementById() , this method is used to select a DOM element by ID of an
+                    <li>Select by ID : <span class="font-bold">getElementById()</span> , this method is used to select a
+                        DOM element by ID of an
                         element.</li>
-                    <li>Select by Class name : getElementsByClassName() , this method is used to select a DOM
+                    <li>Select by Class name : <span class="font-bold">getElementsByClassName()</span> , this method is
+                        used to select a DOM
                         element by
                         class name of an element.</li>
-                    <li>Select by CSS selector: querySelector() , this method is used to select a DOM element by CSS
+                    <li>Select by CSS selector: <span class="font-bold">querySelector()</span> , this method is used to
+                        select a DOM element by CSS
                         selector of an element.</li>
-                    <li>Multiple elements Select by CSS selector: querySelectorAll() , this method is used to select
+                    <li>Multiple elements Select by CSS selector: <span class="font-bold">querySelectorAll()</span> ,
+                        this method is used to select
                         multiple DOM element by CSS selector of an element.</li>
-                </ol>
+                    </ol>
 
 
 
@@ -60,9 +65,15 @@
                     ?</h1>
                 <div class="border-dashed border-b"></div>
 
-                <h1 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, temporibus sed. Quo
-                    perferendis
-                    pariatur ullam aspernatur molestiae tempora sapiente voluptatum.</h1>
+                <h1 class="">Difference between innerHTML, innerText, and textContent:</h1>
+                <ol class="list-decimal pl-5">
+                    <li>innerHTML: Returns or sets the HTML contained within an element, including tags.</li>
+                    <li>innerText: Gets or sets the text content of an element, excluding hidden elements, taking CSS
+                        styles into account.</li>
+                    <li>
+                        textContent: Gets or sets all text in an element, including hidden elements, without any format.
+                    </li>
+                </ol>
 
             </div>
             <!--  -->
@@ -71,9 +82,10 @@
                 <h1 class="font-bold ">Question-3: What is event delegation in the DOM?</h1>
                 <div class="border-dashed border-b"></div>
 
-                <h1 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, temporibus sed. Quo
-                    perferendis
-                    pariatur ullam aspernatur molestiae tempora sapiente voluptatum.</h1>
+                <h1 class="">Event Delegation in the DOM is a technique where a parent element handles events of its
+                    child elements on the basis of event bubbling. Instead of adding event listeners to each child, a
+                    single listener is added to the parent, which is a performance improvement and code maintainability.
+                </h1>
 
             </div>
             <!--  -->
@@ -82,9 +94,9 @@
                 <h1 class="font-bold ">Question-4: What is event bubbling in the DOM?</h1>
                 <div class="border-dashed border-b"></div>
 
-                <h1 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, temporibus sed. Quo
-                    perferendis
-                    pariatur ullam aspernatur molestiae tempora sapiente voluptatum.</h1>
+                <h1 class="">Event Bubbling in the DOM occurs when an event starts at the target element and propagates
+                    upwards to the parent elements until the root (document) is reached. It moves from the innermost to
+                    the outermost. It makes parent elements listen to events triggered by their child elements.</h1>
 
             </div>
             <!--  -->
@@ -93,9 +105,15 @@
                 <h1 class="font-bold ">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
                 <div class="border-dashed border-b"></div>
 
-                <h1 class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, temporibus sed. Quo
-                    perferendis
-                    pariatur ullam aspernatur molestiae tempora sapiente voluptatum.</h1>
+                <h1 class="">Create, Add, and Remove Elements using JavaScript:</h1>
+                <ul class="list-decimal p-5">
+                    <li>Create Element: <br> let div = document.createElement("div");
+                    </li>
+                    <li>Add Element: <br> parent.appendChild(div);
+                    </li>
+                    <li>Remove Element: <br> div.remove();
+                    </li>
+                </ul>
 
             </div>
             <!--  -->
